@@ -1,0 +1,159 @@
+
+body {
+    background-color: #003a70 !important;/*004890*/
+text-align: center !important;
+font-family: "Helvetica Neue",Helvetica,Arial,sans-serif !important;
+    color: #51534A !important;
+    min-width: 352px !important;
+}
+
+#header {
+background: transparent !important;
+padding: 0 !important;
+display: none;
+}
+
+.errors {
+    height: 80px;
+    minimum-width: 50%;
+    background-color: #FED;
+    font-size: 16px;
+    background-image: url('../images/error.gif') no-repeat scroll 20px center transparent;
+    padding-top: 16px;
+    border: 1px dotted #B00;
+}
+
+#cnm_logo{
+	background: transparent url("../images/logo-50th.png") no-repeat !important;
+	background-position: 12px !important;
+	height: 200px;
+	width: 250px;
+	/*position: relative !important;*/
+	padding-top: -100px;
+}
+
+
+.fl-screenNavigator-view {
+	padding-top: 10px;
+}
+
+#app-name {
+background: transparent url("../images/CNM-SL-rgb-bluetxt.png") no-repeat !important;
+background-size: 192px 50px !important;
+background-position: 20px 6px !important;
+/*border-bottom: 4px solid #003A70;/*#41b6e6*/
+/*@ rules here to adjust logo?*/
+}
+
+#content {
+	border-radius: 0 !important;
+	background: url("../images/cas_login_bg.jpg") no-repeat center center !important;
+	background-size: 100% 100% !important;
+        background-attachment: fixed !important;
+	margin-top: 16px !important;
+	padding-top: 30px !important;
+	border-top: 3px solid #f6be00 !important;
+	border-bottom: 3px solid #f6be00 !important;
+}
+
+
+@media (max-width: 799px) {
+        #app-name {
+            background: #f6be00 url("../images/CNM-SL-rgb-bluetxt.png") no-repeat !important; /*fbd10b*/
+            background-size: 140px 40px !important;
+            background-position: 10px 2px !important;
+        }
+}
+
+#header h1{
+text-align: right;
+}
+
+h2 {
+line-height: 120% !important;
+}
+
+#company-name {
+background: none !important;
+}
+
+#login {
+margin-right: auto !important;
+margin-left: auto !important;
+margin-bottom: 30px !important;
+margin-top: -200px;
+float: none !important;
+font-size: 120%;
+width: 320px !important;
+background-color: #fcf8e5;
+padding-bottom: 16px !important;
+padding-left: 20px !important;
+padding-right: 20px !important;
+box-shadow: 2px 2px 1px black;
+opacity: .95;
+}
+
+@media (max-width: 421px){
+	#login{
+		width: 290px !important;
+	}
+}
+
+
+#fm1{
+	background-color: #fcf8e5 !important;
+}
+
+#sidebar{
+	display: none;
+}
+
+#security {
+	padding-top:  10px;
+}
+
+#login h2 {
+color: black;
+}
+
+#footer {
+color: white;
+}
+
+#footer a {
+color: white !important;
+}
+
+#login a{
+text-decoration: none;
+}
+
+
+
+#links a {
+border-left: 1px solid black;
+padding-left: 13px;
+padding-right: 9px;
+}
+
+#links > a:nth-child(1), #links > a:nth-child(7){
+border-left: none;
+}
+
+
+
+#links:nth-child(4) {
+border-right: 1px solid black !important;
+padding-right: 9px;
+}
+
+#info a:last-child {
+border-right: 1px solid black;
+}
+
+#info span {
+border-right: 1px solid black;
+padding-right: 13px;
+}
+
+
